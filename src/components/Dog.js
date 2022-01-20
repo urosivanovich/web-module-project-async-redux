@@ -27,7 +27,7 @@ console.log(dog)
         <>
         <div>
             <h2>Doggy dog</h2>
-            <h4>{dog.status}</h4>
+            <img src={dog}/>
         </div>
         <button onClick={handleClick}>Get a new dog</button>
         </>
