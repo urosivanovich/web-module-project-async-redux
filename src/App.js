@@ -1,10 +1,13 @@
 import React from 'react';
 import './App.css';
+import Dog from './components/Dog';
+
 
 function App() {
   return (
     <div className="App">
-      Async Redux Project
+      <h1>Get a Dog</h1>
+      <Dog />
     </div>
   );
 }
